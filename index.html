@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Club Induction Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Model Club Induction Form</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" >
+            </div>
+
+            <div class="form-group">
+                <label for="branch">Branch</label>
+                <select id="branch" name="branch" required>
+                    <option value="">Choose</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Electrical">Electrical</option>
+                    <option value="Mechanical">Mechanical</option>
+                    <option value="Civil">Civil</option>
+                    <option value="Other">Other</option>
+                    <input type="text" id="other" name="other" placeholder="other branch">
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile No.</label>
+                <input type="number" id="mobile" name="mobile" >
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail ID</label>
+                <input type="email" id="email" name="email" >
+            </div>
+
+            <div class="form-group">
+                <label for="hometown">Hometown</label>
+                <input type="text" id="hometown" name="hometown" >
+            </div>
+
+            <div class="form-group">
+                <label for="tenth-board">10th Board</label>
+                <select id="10th-board" name="10th-board" >
+                    <option value="">Choose</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="ICSE">ICSE</option>
+                    <option value="JAC">JAC</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="tenth-percentage">10th Percentage</label>
+                <input type="number" id="10th-percentage" name="10th-percentage">
+            </div>
+
+            <div class="form-group">
+                <label for="12th-board">12th Board</label>
+                <select id="12th-board" name="12th-board" >
+                    <option value="">Choose</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="ICSE">ICSE</option>
+                    <option value="JAC">JAC</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="12th">12th Percentage</label>
+                <input type="number" id="12th-percentage" name="12th-percentage">
+            </div>
+
+            <div class="form-group">
+                <label for="jee-mains-rank">JEE Mains All India Rank</label>
+                <input type="number" id="jee-mains-rank" name="jee-mains-rank">
+            </div>
+
+            <div class="form-group">
+                <label for="jcece-cml">JCECE CML</label>
+                <input type="number" id="jcece-cml" name="jcece-cml">
+            </div>
+
+            <div class="form-group">
+                <label for="aim">Aim</label>
+                <textarea id="aim" name="aim"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="field-of-interest">Field of Interest</label>
+                <input type="checkbox" id="robotics" name="field-of-interest" value="Robotics"> Robotics
+                <br>
+                <input type="checkbox" id="drones" name="field-of-interest" value="Drones"> Drones
+                <br>
+                <input type="checkbox" id="competitive-programming" name="field-of-interest" value="Competitive Programming"> Competitive Programming
+                <br>
+                <input type="checkbox" id="web-development" name="field-of-interest" value="Web Development"> Web Development
+                <br>
+                <input type="checkbox" id="android-development" name="field-of-interest" value="Android Development"> Android Development
+                <br>
+                <input type="checkbox" id="ethical-hacking" name="field-of-interest" value="Ethical Hacking"> Ethical Hacking
+                <br>
+                <input type="checkbox" id="game-development" name="field-of-interest" value="Game Development"> Game Development
+                <br>
+                <input type="checkbox" id="arduino-development" name="field-of-interest" value="Arduino Development"> Arduino Development
+                <br>
+                <input type="checkbox" id="gfx" name="field-of-interest" value="GFX"> GFX
+                <br>
+                <input type="checkbox" id="vfx" name="field-of-interest" value="VFX"> VFX
+                <br>
+                <input type="checkbox" id="evs" name="field-of-interest" value="EVs"> EVs
+                <br>
+                <input type="checkbox" id="ai-ml" name="field-of-interest" value="AI & ML"> AI & ML
+            </div>
+
+            <div class="form-group">
+                <label for="strengths">Strengths</label>
+                <textarea id="strengths" name="strengths"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="weaknesses">Weaknesses</label>
+                <textarea id="weaknesses" name="weaknesses"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="hobbies">Hobbies</label>
+                <textarea id="hobbies" name="hobbies"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="Describe Yourself in one line">Describe Yourself in one line</label>
+                <textarea id="Describe" name="Describe"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="skills">Skills-set (i.e skills you have)</label>
+                <textarea id="skills" name="skills"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="asset-for-model-club">How will you be an asset for Model Club?</label>
+                <textarea id="asset-for-model-club" name="asset-for-model-club"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="events-participated">Have you participated in any events earlier?</label>
+                <input type="radio" id="yes" name="events-participated" value="yes"> Yes
+                <br>
+                <input type="radio" id="no" name="events-participated" value="no"> No
+            </div>
+
+            <div class="form-group">
+                <label for="events-description">If yes, explain your projects briefly</label>
+                <textarea id="events-description" name="events-description"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="how-did-you-know">How did you come to know about us?</label>
+                <input type="radio" id="facebook" name="how-did-you-know" value="Facebook"> Facebook
+                <br>
+                <input type="radio" id="instagram" name="how-did-you-know" value="Instagram"> Instagram
+                <br>
+                <input type="radio" id="linkedin" name="how-did-you-know" value="Linkedin"> Linkedin
+                <br>
+                <input type="radio" id="youtube" name="how-did-you-know" value="Youtube"> Youtube
+                <br>
+                <input type="radio" id="friend" name="how-did-you-know" value="Friend"> Friend
+                <br>
+                <input type="radio" id="other" name="how-did-you-know" value="Other"> Other
+                <input type="text" id="other" name="other " placeholder="other source">
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
